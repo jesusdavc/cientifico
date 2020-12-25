@@ -10,7 +10,7 @@ const Character = async () => {
 
 const view = `    
     <div class="Characters-inner">
-    <article class="Character-card">
+    <article class="Characters-card">
         <img src="${character.image}" alt="${character.name}">
         <h2>${character.name}</h2>
     </article>
