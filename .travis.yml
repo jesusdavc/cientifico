@@ -11,7 +11,7 @@ script:
 notifications:
   email:
     recipients:
-      - 15-10345usb.ve
+      - 15-10345@usb.ve
       - gsusqdavid@gmail.com
       - jedave.co@gmail.com
     on_success: always
