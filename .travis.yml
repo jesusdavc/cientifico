@@ -8,6 +8,14 @@ git:
   depth: 3
 script:
   - yarn build
+notifications:
+  email:
+    recipients:
+      - 15-10345usb.ve
+      - gsusqdavid@gmail.com
+      - jedave.co@gmail.com
+    on_success: always
+    on_failure: always
 deploy:
   provider: pages
   edge: true
