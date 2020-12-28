@@ -9,6 +9,9 @@ git:
 script:
   - yarn build
 notifications:
+  slack: jesusprojects:lSNskQo9LS4erXsBudiejeEH
+    rooms:
+      
   email:
     recipients:
       - 15-10345@usb.ve
